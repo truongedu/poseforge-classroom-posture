@@ -1,0 +1,9 @@
+# Ubuntu 22.04 / Python 3.11 — collector + YOLO-Pose + ByteTrack + tests.
+# Single root entry point; original requirements stay in collector/ for V1 compatibility.
+-r collector/requirements-pose.txt
+pytest>=8,<10
+onnx>=1.16,<2
+onnxruntime>=1.18,<2
+onnxruntime-gpu==1.31.1
+pandas==3.1.0
+tqdm==4.70.1

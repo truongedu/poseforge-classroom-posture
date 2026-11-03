@@ -1,0 +1,45 @@
+# Environments and local tools
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.vscode/
+.idea/
+
+# Preserve participant data, source videos and all model binaries outside git
+collector/Real_Posture_Dataset/
+collector/Real_Posture_Dataset.zip
+collector/models/*
+!collector/models/.gitkeep
+PoseForge_Real_Posture_Collector_V1/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pt
+*.pth
+*.onnx
+*.task
+*.ckpt
+*.npz
+*.npy
+*.zip
+*.pdf
+
+# Track only public quick-start/roadmap docs. Keep private notes and artifacts ignored.
+/docs/*
+!/docs/RUN.md
+!/docs/assets/
+/collector/docs/
+/artifacts/
+
+# Generated tests and runtime
+inference/__pycache__/
+ui_validation/
+collector/ui_validation/
+*.log
+.DS_Store
+CE*

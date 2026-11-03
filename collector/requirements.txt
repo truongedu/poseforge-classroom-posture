@@ -1,0 +1,4 @@
+# PySide6 6.12.0 causes none_dealloc crashes on CPython 3.11 during Qt painting.
+PySide6==6.11.3
+opencv-python>=4.8,<5
+numpy>=1.26,<3
